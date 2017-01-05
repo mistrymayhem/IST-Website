@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Project 2</title>
+
+  <!-- Google Font + Font Awesome Links -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans+Condensed:300,300i,700|Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="magnific-popup.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <!-- CSS Stylesheet Link Ref -->
+  <link rel="stylesheet" href="style.css" />
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> <!-- jQuery Link -->
+  <script src="plugins/jquery.sticky.js" type="text/javascript"></script> <!-- Sticky Nav Plugin Link -->
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script> <!-- Flip Plugin Link -->
+  <script src="plugins/jquery.flip.js"></script> <!-- Flip Plugin Link -->
+  <script type="text/javascript" src="plugins/jquery.tablesorter.js"></script> <!-- Tablesorter Plugin Link -->
+  <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script> <!-- Scroll Reveal Plugin Link -->
+  <script src="plugins/scrollreveal.js"></script> <!-- Scroll Reveal Plugin Link -->
+  <script src="plugins/jquery.anchorScroll.js"></script> <!-- Anchor Scroll Plugin Link -->
+  <script src="plugins/jquery.stickytableheaders.min.js"></script> <!-- Sticky Table Header Plugin Link -->
+  <script src="plugins/jquery.magnific-popup.js"></script> <!-- Dialog Popup Plugin Link -->
+  <script type="text/javascript" src="plugins/jquery.tabslet.min.js"></script> <!-- Tabs Plugin Link -->
+  <script src="plugins/readmore.min.js"></script> <!-- Read More Plugin Link -->
+  <script type="text/javascript" src="script.js"> </script> <!-- Script File Link -->
+</head>
+
+<body>
+  <!-- Header w/ Hero Image and Site Title -->
+  <header>
+    <h1 class="top-title"><span class="top-title-orange">Information </span>Sciences & Technology</h1>
+    <h2 class="top-subtitle">Scroll down to navigate</h2>
+  </header>
+  <div id="nav-wrapper" role="primary" style="z-index:100;">
+  <!-- Nav Bar -->
+  <nav>
+    <ul class="nav-ul">
+      <li class="nav-li"><a href="#about" class="nav-link anchor-scroll">About</a></li>
+      <li class="nav-li"><a href="#degrees" class="nav-link anchor-scroll">Degree</a></li>
+      <li class="nav-li"><a href="#minors" class="nav-link anchor-scroll">Minors</a></li>
+      <li class="nav-li"><a href="#employment" class="nav-link anchor-scroll">Employment</a></li>
+      <li class="nav-li"><a href="#people" class="nav-link anchor-scroll">People</a></li>
+      <li class="nav-li"><a href="#resources" class="nav-link anchor-scroll">Resources</a></li>
+      <li class="nav-li"><a href="#news" class="nav-link anchor-scroll">News</a></li>
+      <li class="nav-li"><a href="#contact" class="nav-link anchor-scroll">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+
+  <!-- About Section -->
+  <div id="about"></div>
+
+  <!-- Degree Section -->
+  <div id="degrees">
+      <h2 class='dark-heading'>Our Undergraduate Degrees</h2>
+      <p class='dark-copy'>Click on a degree to see details!</p>
+      <div id="undergrad-grid">
+      </div>
+      <h2 class='dark-heading' style="margin-top:200px;">Our Graduate Degrees</h2>
+      <p class='dark-copy'>Click on a degree to see details!</p>
+      <div id="grad-grid">
+      </div>
+  </div>
+
+  <!-- Minors Section -->
+  <div id="minors">
+      <h2 class='light-heading'>Our Undergraduate Minors</h2>
+      <p class='light-body'>Click on a minor to learn more!</p>
+      <div id="minors-grid"></div>
+  </div>
+
+  <!-- Employment Section -->
+  <div id="employment">
+    <div id="stats-grid">
+    </div>
+  </div>
+
+  <!-- Map Section -->
+  <div id="map">
+    <h2 class='light-heading'>Where Our Students Work</h2>
+    <!-- Map iFrame -->
+    <iframe src='https://ist.rit.edu/api/map/'> <p>Your browser does not support iframes.</p>
+    </iframe>
+  </div>
+
+  <!-- Faculty/Staff Section -->
+  <div id="people">
+    <h2 class='dark-heading'>People</h2>
+    <p class='dark-copy'>Click on a faculty/staff for more details!</p>
+    <div class="people-toggle">
+      <h2 class='dark-subhead'><a href="#people" id="fac-link" class="selected">Faculty</a></h2>
+      <h2 class='dark-subhead'><a href="#people" id="staff-link">Staff</a></h2>
+    </div>
+
+    <!-- Faculty Content -->
+    <div id="faculty-grid">
+    </div>
+
+    <!-- Staff Content -->
+    <div id="staff-grid">
+      <div id="staff-grid-content">
+      </div>
+    </div>
+
+    <!-- Research Section -->
+    <div id="research">
+      <h2 class='dark-subhead'>Faculty Research</h2>
+      <div id="research-grid">
+      </div>
+      <h2 class='dark-subhead'>Research By Interest Area</h2>
+      <div id="interest-grid">
+      </div>
+    </div>
+  </div>
+
+  <!-- Resources Section -->
+  <div id="resources" class="tabs">
+    <!-- Tab Navigation -->
+    <ul id="tabs-ul">
+        <li><a href="#study-abroad">Study Abroad</a></li>
+        <li><a href="#student-services">Student Services</a></li>
+        <li><a href="#tutors-and-lab-info">Tutors and Lab Info</a></li>
+        <li><a href="#student-ambassadors">Student Ambassadors</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#coopEnrollment">Co-Op Enrollment</a></li>
+    </ul>
+
+    <div id="study-abroad">
+    </div>
+
+    <div id="student-services">
+    </div>
+
+    <div id="tutors-and-lab-info">
+    </div>
+
+    <div id="student-ambassadors">
+    </div>
+
+    <div id="forms">
+      <ul id="grad-forms">
+      </ul>
+
+      <ul id="undergrad-forms">
+      </ul>
+    </div>
+
+    <div id="coopEnrollment">
+    </div>
+  </div>
+
+  <!-- News Section -->
+  <div id="news">
+    <h2 class='dark-heading'>News</h2>
+    <div class="people-toggle">
+      <h2 class='dark-subhead'><a href="#news" id="year-link" class="selected">This Year</a></h2>
+      <h2 class='dark-subhead'><a href="#news" id="older-link">Older</a></h2>
+    </div>
+
+    <div id="year-content">
+    </div>
+    <div id="older-content">
+    </div>
+  </div>
+
+  <!-- Contact + Footer Section -->
+  <div id="contact">
+
+    <div id="contact-form">
+    </div>
+
+    <div id="social">
+    </div>
+
+    <div id="quick-links">
+      <h2 class='light-subhead'>Quick Links</h2>
+    </div>
+
+    </div>
+    <div id="copyright">
+
+  </div>
+
+</body>
+</html>
